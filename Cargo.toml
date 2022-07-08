@@ -8,8 +8,15 @@ edition = "2021"
 name = "garden"
 path = "src/main.rs"
 
+[lib]
+name = "garden"
+path = "src/lib.rs"
+
 [dependencies]
 color-eyre = "0.6.1"
+directories = "4.0.1"
+directory = "0.0.0"
+edit = "0.1.4"
 structopt = "0.3.26"
 
 [dev-dependencies]
